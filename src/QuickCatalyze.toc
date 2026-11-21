@@ -2,10 +2,14 @@
 ## ExcludeLoadGameType: plunderstorm, wowhack
 ## Title: QuickCatalyze
 ## Notes: Instantly confirms catalyst conversions by skipping the countdown. Use /qc to switch modes.
-## Version: 2026.11.14
+## Version: 2026.11.20
 ## Author: LightskyGG
 ## SavedVariables: QUICKCATALYZE_CONFIG, QUICKCATALYZE_DATA
 ## IconTexture: Interface\ICONS\inv_trinket_80_titan01a
 ## AddonCompartmentFunc: QuickCatalyze_AddonCompartmentCallback
 
-QuickCatalyze.lua
+Data\Defaults.lua
+Core\Initialize.lua
+Core\Settings.lua
+Core\Catalyze.lua
+Core\Commands.lua
